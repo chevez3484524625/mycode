@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch (GDB)", // �������ƣ������������õ������˵�����ʾ
+            "type": "cppdbg", // �������ͣ�����ֻ��Ϊcppdbg
+            "request": "launch", // �����������ͣ�����Ϊlaunch�������attach�����ӣ�
+            "targetArchitecture": "x86", // ����Ŀ��ܹ���һ��Ϊx86��x64������Ϊx86, arm, arm64, mips, x64, amd64, x86_64
+            "program": "${file}.exe", // ��Ҫ���е��Եĳ����·��
+            "miDebuggerPath": "C:\\Users\\Administrator\\Desktop\\MinGW\\bin\\gdb.exe", // miDebugger��·����ע������Ҫ��MinGw��·����Ӧ
+            "args": [], // �������ʱ���ݸ�����������в�����һ����Ϊ�ռ���
+            "stopAtEntry": false, // ��Ϊtrueʱ������ͣ�ڳ�����ڴ���һ������Ϊfalse
+            "cwd": "${fileDirname}", // ���Գ���ʱ�Ĺ���Ŀ¼��һ��Ϊ${workspaceRoot}����������Ŀ¼
+            "externalConsole": true, // ����ʱ�Ƿ���ʾ����̨���ڣ�һ������Ϊtrue��ʾ����̨
+            "preLaunchTask": "g++", // ���ԻỰ��ʼǰִ�е�����һ��Ϊ�������c++Ϊg++, cΪgcc
+        }
+    ]
+}
