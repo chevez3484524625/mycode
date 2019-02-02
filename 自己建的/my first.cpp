@@ -8,3 +8,4 @@ int main()
     system("pause");              //  system("pause");  要在   return 0 ; 前  窗口会暂停
     return 0 ;              // return 0 ;   ！要有空格
 }
+
