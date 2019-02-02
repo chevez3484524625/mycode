@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    cout <<" 崔伟杰 comp up  and c++ me some time .";  // cout  不要错成cont
+    cout <<" comp up  and c++ me some time .";  // cout  不要错成cont
     cout << endl;
     cout << "you won't regret it !"<<endl;
     system("pause");              //  system("pause");  要在   return 0 ; 前  窗口会暂停
